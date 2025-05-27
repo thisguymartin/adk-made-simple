@@ -1,5 +1,25 @@
 # Lesson 4: Serving Agents via A2A Protocol
 
+## Environment Setup (venv or Anaconda)
+
+Before running or developing agents, set up your Python environment using one of the provided scripts:
+
+**Option 1: Python venv (Recommended)**
+```bash
+zsh scripts/setup_venv.sh
+source .venv/bin/activate
+```
+
+**Option 2: Anaconda/Miniconda**
+```bash
+zsh scripts/setup_conda.sh
+conda activate adk-made-simple
+```
+
+> These scripts will install all required dependencies from `requirements.txt`.
+
+---
+
 ## Project Folder Summary
 
 In this lesson, we will be focusing on the Agent-to-Agent (A2A) protocol. Here's a summary of the key file changes within the project structure:

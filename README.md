@@ -10,6 +10,30 @@ If you find this tutorial series and codebase helpful in your AI agent developme
 
 </a>
 
+## Python Environment Setup (venv or Anaconda)
+
+You can use either Python's built-in `venv` or Anaconda to manage your environment. Scripts are provided for both methods in the `scripts/` directory.
+
+### Option 1: Python venv (Recommended for Simplicity)
+
+```bash
+# From the project root
+zsh scripts/setup_venv.sh
+# To activate later:
+source .venv/bin/activate
+```
+
+### Option 2: Anaconda/Miniconda
+
+```bash
+# From the project root
+zsh scripts/setup_conda.sh
+# To activate later:
+conda activate adk-made-simple
+```
+
+> **Note:** If you use a different shell, adjust the activation command as needed. These scripts are written for zsh (macOS default).
+
 ## Lessons
 
 | Lesson | Link | Description |
@@ -178,6 +202,7 @@ adk-made-simple/
 │   │       └── ... (other tests)
 │   └── run_agents.py        # Script to run multiple standalone agents (if needed)
 ```
+
 
 ## Streamlit UI
 

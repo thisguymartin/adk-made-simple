@@ -1,5 +1,25 @@
 # Lesson 2: Multi-Agent Systems, Summarization, and Text-to-Speech
 
+## Environment Setup (venv or Anaconda)
+
+Before running or developing agents, set up your Python environment using one of the provided scripts:
+
+**Option 1: Python venv (Recommended)**
+```bash
+zsh scripts/setup_venv.sh
+source .venv/bin/activate
+```
+
+**Option 2: Anaconda/Miniconda**
+```bash
+zsh scripts/setup_conda.sh
+conda activate adk-made-simple
+```
+
+> These scripts will install all required dependencies from `requirements.txt`.
+
+---
+
 In this lesson, we expand on the Reddit Scout Agent by introducing multiple agents and coordination between them. You'll learn how to build a multi-agent system that can fetch Reddit news, summarize it, and convert text to speech using ElevenLabs—all orchestrated via the Google ADK.
 
 ## Background
@@ -229,4 +249,4 @@ In this lesson, you learned how to build and coordinate multiple agents using th
 
 ---
 
-_Next: Lesson 3 will show how to build custom UIs for your agents!_ 
+_Next: Lesson 3 will show how to build custom UIs for your agents!_

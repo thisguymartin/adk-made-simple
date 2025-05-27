@@ -1,5 +1,25 @@
 # Lesson 3: Building Custom UIs for the Speaker Agent
 
+## Environment Setup (venv or Anaconda)
+
+Before running the UI apps or test scripts, set up your Python environment using one of the provided scripts:
+
+**Option 1: Python venv (Recommended)**
+```bash
+zsh scripts/setup_venv.sh
+source .venv/bin/activate
+```
+
+**Option 2: Anaconda/Miniconda**
+```bash
+zsh scripts/setup_conda.sh
+conda activate adk-made-simple
+```
+
+> These scripts will install all required dependencies from `requirements.txt`.
+
+---
+
 In this lesson, we'll explore how to create custom user interfaces for our ElevenLabs-powered Text-to-Speech Speaker Agent. We'll implement two different integration approaches:
 
 1. Using the ADK API Server (`adk api_server`)

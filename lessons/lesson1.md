@@ -19,22 +19,6 @@ The Google ADK provides a framework for building, running, and coordinating AI a
    cd adk-made-simple
    ```
 
-2. **Create and activate a virtual environment (recommended):**
-
-   ```bash
-   python -m venv .venv
-   # On Windows
-   .\.venv\Scripts\activate
-   # On macOS/Linux
-   source .venv/bin/activate
-   ```
-
-3. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 4. **Configure environment variables:**
 
    - Copy the example environment file:
@@ -147,4 +131,4 @@ In this lesson, you learned how to set up the ADK, configure environment variabl
 
 ---
 
-_Next: Lesson 2 will introduce multi-agent coordination, asynchronous tool use, and text-to-speech capabilities!_ 
+_Next: Lesson 2 will introduce multi-agent coordination, asynchronous tool use, and text-to-speech capabilities!_
