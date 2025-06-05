@@ -170,3 +170,5 @@ agent = Agent(
     ),
     tools=[get_reddit_contractor_news],
 )
+
+root_agent = agent
